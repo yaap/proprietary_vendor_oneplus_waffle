@@ -1372,6 +1372,16 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/waffle/proprietary/odm/vendor/firmware/antdtx.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b07 \
     vendor/oneplus/waffle/proprietary/odm/vendor/firmware/antdtx.b08:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b08 \
     vendor/oneplus/waffle/proprietary/odm/vendor/firmware/antdtx.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.mdt \
+    vendor/oneplus/waffle/proprietary/odm/vendor/firmware/facereg.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/facereg.b00 \
+    vendor/oneplus/waffle/proprietary/odm/vendor/firmware/facereg.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/facereg.b01 \
+    vendor/oneplus/waffle/proprietary/odm/vendor/firmware/facereg.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/facereg.b02 \
+    vendor/oneplus/waffle/proprietary/odm/vendor/firmware/facereg.b03:$(TARGET_COPY_OUT_ODM)/vendor/firmware/facereg.b03 \
+    vendor/oneplus/waffle/proprietary/odm/vendor/firmware/facereg.b04:$(TARGET_COPY_OUT_ODM)/vendor/firmware/facereg.b04 \
+    vendor/oneplus/waffle/proprietary/odm/vendor/firmware/facereg.b05:$(TARGET_COPY_OUT_ODM)/vendor/firmware/facereg.b05 \
+    vendor/oneplus/waffle/proprietary/odm/vendor/firmware/facereg.b06:$(TARGET_COPY_OUT_ODM)/vendor/firmware/facereg.b06 \
+    vendor/oneplus/waffle/proprietary/odm/vendor/firmware/facereg.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/facereg.b07 \
+    vendor/oneplus/waffle/proprietary/odm/vendor/firmware/facereg.b08:$(TARGET_COPY_OUT_ODM)/vendor/firmware/facereg.b08 \
+    vendor/oneplus/waffle/proprietary/odm/vendor/firmware/facereg.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/facereg.mdt \
     vendor/oneplus/waffle/proprietary/vendor/etc/clstc_config_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/clstc_config_library.xml \
     vendor/oneplus/waffle/proprietary/vendor/etc/display/DPU1010.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU1010.xml \
     vendor/oneplus/waffle/proprietary/vendor/etc/display/DPU1020.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU1020.xml \
@@ -2110,6 +2120,7 @@ PRODUCT_PACKAGES += \
     libstblur_capture_api \
     libstface_datas \
     libstface_fd_api \
+    libstfaceunlockocl \
     libstfd_mobile_api \
     libtensorflowlite_oplus \
     libtfa98xx \
