@@ -6,7 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/oneplus/waffle
 
 PRODUCT_COPY_FILES += \
-    vendor/oneplus/waffle/proprietary/odm/etc/fusionlight.json:$(TARGET_COPY_OUT_ODM)/etc/fusionlight.json \
+    vendor/oneplus/waffle/proprietary/odm/etc/fusionlight_profile/fusionlight_Main_1_3.json:$(TARGET_COPY_OUT_ODM)/etc/fusionlight_profile/fusionlight_Main_1_3.json \
     vendor/oneplus/waffle/proprietary/product/etc/permissions/privapp-permissions-euiccgoogle.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-euiccgoogle.xml \
     vendor/oneplus/waffle/proprietary/vendor/etc/display_apollo_list_AA545_P_3_A0005_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display_apollo_list_AA545_P_3_A0005_dsc_cmd_mode_panel.xml \
     vendor/oneplus/waffle/proprietary/odm/etc/Custom_LUT_hlg.cube:$(TARGET_COPY_OUT_ODM)/etc/Custom_LUT_hlg.cube \
