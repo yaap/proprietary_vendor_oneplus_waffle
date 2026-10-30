@@ -6855,23 +6855,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "lib_lvacfs",
-	owner: "oneplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/lib_lvacfs.so"],
-			shared_libs: ["libcutils", "libc", "libc++", "libdl", "libm", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "lib_rectify",
 	owner: "oneplus",
 	strip: {
@@ -8497,23 +8480,6 @@ cc_prebuilt_library_shared {
 		android_arm64: {
 			srcs: ["proprietary/odm/lib64/libimgClarityEvaluate.so"],
 			shared_libs: ["liblog", "libm", "libc++_shared", "libdl", "libc", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "liblvacfs_wrapper",
-	owner: "oneplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/liblvacfs_wrapper.so"],
-			shared_libs: ["liblog", "lib_lvacfs", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -11084,6 +11050,13 @@ install_symlink {
 	soc_specific: true,
 	installed_location: "etc/display/qdcm_calib_data_AA545_P_3_A0005_dsc_cmd_mode_panel.json",
 	symlink_target: "/odm/etc/display/qdcm_calib_data_AA545_P_3_A0005_dsc_cmd_mode_panel.json",
+}
+
+install_symlink {
+	name: "mixer_paths_mixer_paths_pineapple_mtp_symlink",
+	soc_specific: true,
+	installed_location: "etc/audio/sku_pineapple/mixer_paths_pineapple_mtp.xml",
+	symlink_target: "/odm/etc/mixer_paths.xml",
 }
 
 install_symlink {
