@@ -11060,6 +11060,20 @@ install_symlink {
 }
 
 install_symlink {
+	name: "resourcemanager_resourcemanager_pineapple_mtp_symlink",
+	soc_specific: true,
+	installed_location: "etc/audio/sku_pineapple/resourcemanager_pineapple_mtp.xml",
+	symlink_target: "/odm/etc/resourcemanager.xml",
+}
+
+install_symlink {
+	name: "usecaseKvManager_usecaseKvManager_symlink",
+	soc_specific: true,
+	installed_location: "etc/usecaseKvManager.xml",
+	symlink_target: "/odm/etc/usecaseKvManager.xml",
+}
+
+install_symlink {
 	name: "awb_parameter_default_awb_parameter_default_symlink64",
 	device_specific: true,
 	installed_location: "lib64/camera/awb_parameter_default.bin",
